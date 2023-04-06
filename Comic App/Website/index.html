@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add some styles to make the page look good */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .book {
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        
+        .book-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .book-embed {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Viewer</h1>
+    <div id="book-container"></div>
+
+    <!-- Load the JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
